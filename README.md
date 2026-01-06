@@ -5,7 +5,7 @@ It gradually displays text character by character, making it ideal for dialogue 
 
 ---
 
-## Features
+## ➡️ Features
 - Simple setup with just a few lines of code  
 - Adjustable writing speed  
 - Optimized with `StringBuilder` for better performance  
@@ -21,6 +21,11 @@ When you create a `StringWriter` instance, you provide:
 
 The coroutine `writer()` appends one character at a time to the target text element, waiting a configurable amount of time between each update.  
 By default, each character appears every **0.1 seconds**, but you can easily adjust this value.
+
+---
+
+## ✅ How it looks
+![demo](README.gif)
 
 ---
 
